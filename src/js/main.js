@@ -12,3 +12,12 @@ class Personer {
   }
 }
 
+const p = new Personer("Wilmer", "33", "Man");
+
+const p2 = new Personer("Timmy", "31", "Man");
+
+const p3 = new Personer("Ali", "23", "Man");
+
+const p4 = new Personer("Wilmer", "26", "Kvinna");
+
+
