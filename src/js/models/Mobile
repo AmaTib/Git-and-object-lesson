@@ -1,0 +1,14 @@
+export class Mobile {
+  brand;
+  model;
+  year;
+  img;
+  
+  constructor(brand, model, year, img){
+    this.brand = brand;
+    this.model = model;
+    this.year = year;
+    this.img= img;
+
+  }
+}
