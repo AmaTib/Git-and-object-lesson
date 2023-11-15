@@ -1,14 +1,14 @@
 import "./../scss/style.scss";
 
 class Personer {
-  namn;
-  ålder;
-  kön;
+  name;
+  age;
+  gender;
 
-  constructor(namn, smak, bild) {
-    this.namn = namn;
-    this.ålder = ålder;
-    this.kön = kön;
+  constructor(name, age, gender) {
+    this.name = name;
+    this.age = age;
+    this.gender = gender;
   }
 }
 
@@ -20,4 +20,6 @@ const p3 = new Personer("Ali", "23", "Man");
 
 const p4 = new Personer("Wilmer", "26", "Kvinna");
 
+const family = [p, p2, p3, p4];
 
+console.log(family);
