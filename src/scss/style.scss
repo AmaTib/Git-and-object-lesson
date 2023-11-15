@@ -92,7 +92,12 @@ button:focus-visible {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 10%;
+}
+
+.mobile {
+  margin: 0;
+  width: 200px;
 }
 
 @media (prefers-color-scheme: light) {
