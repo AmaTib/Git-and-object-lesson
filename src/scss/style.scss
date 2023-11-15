@@ -93,12 +93,17 @@ button:focus-visible {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 10%;
+  gap: 1%;
 }
 
 .mobile {
-  margin: 0;
-  width: 200px;
+  margin: 15px;
+  width: 33%;
+  font-size: 12px;
+}
+
+.mobileImg{
+  width: 300px;
 }
 
 @media (prefers-color-scheme: light) {
