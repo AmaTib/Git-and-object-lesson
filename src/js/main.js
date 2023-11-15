@@ -1,5 +1,4 @@
 import "./../scss/style.scss";
-import { Mobile } from "./models/Mobile";
 
 class Soda {
   namn;
