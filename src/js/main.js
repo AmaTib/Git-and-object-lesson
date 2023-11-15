@@ -23,3 +23,4 @@ const p4 = new Personer("Wilmer", "26", "Kvinna");
 const family = [p, p2, p3, p4];
 
 console.log(family);
+
